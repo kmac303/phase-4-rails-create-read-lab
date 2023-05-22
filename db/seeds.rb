@@ -36,7 +36,13 @@ Plant.create!([
     name: 'Fiddle Leaf Fig',
     image: './images/fiddle-leaf-fig.jpg',
     price: 55
+  },
+  {
+    name: "Snake Plant", 
+    image: "https://images.immediate.co.uk/production/volatile/sites/10/2018/02/d3799c85-8c15-44df-8293-5cf8865155bc-a09fea8.jpg?quality=90&resize=940,627", 
+    price: 4.99
   }
 ])
 
 puts '✅ Done seeding!'
+
